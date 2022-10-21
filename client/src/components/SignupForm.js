@@ -33,10 +33,11 @@ const SignupForm = () => {
     }
 
     try {
+      //call mutation hook
       const { data } = await addUser({
         variables: { ...userFormData }
       });
-      console.log(data);
+      //console.log(data);
 
       //store the token
       Auth.login(data.addUser.token);

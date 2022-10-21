@@ -29,7 +29,7 @@ This is a full stack MERN application using the Google Books API search engine t
 
 ## Usage
 
-Follow this link in your browser: https://git.heroku.com/alli-booksearch.git
+Follow this link in your browser: https://alli-booksearch.herokuapp.com/
 
 ## Demo
 
